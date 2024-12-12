@@ -58,8 +58,17 @@ What colors, typography, and design elements will we use?
 
 ### Bugs and Issues
 
+- Running the Project for the first time in the browser and Django doesn't recognise the hostname
+![Issue with running in the browser](issue-image01.png)
+[ Resolved with adding the hostname to ALLOWED_HOSTS, inside project/settings.py file ]
+![Resolved issue and Django running in the browser](issue-image02.png)
+
 ## Deployment
-Setup and startup of the Project
+
+Local deployment on workstation
+- from installation of Python on Windows OS to runing project in the browser
+
+Setup and startup of the Project in Cloud
 - Create new GitHub repository from template
 ![New repo creating](image01.png)
 - Apply settings for new repo
