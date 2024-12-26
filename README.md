@@ -63,6 +63,8 @@ What colors, typography, and design elements will we use?
 ![Issue with running in the browser](issue-image01.png)
 [ Resolved with adding the hostname to ALLOWED_HOSTS, inside project/settings.py file ]
 ![Resolved issue and Django running in the browser](issue-image02.png)
+- Django App first run in the browser issue [ resolved with manualy adding /about on the end ]
+![Django App first run issue](image07.png)
 
 ## Deployment
 
@@ -80,6 +82,16 @@ Setup and startup of the Project in Cloud
 ![Preparing Workspace](image04.png)
 - Building Workspace with all necessary elements
 ![Building image for the Workspace](image05.png)
+- Installed Django using the following command in the Terminal: pip3 install Django~=5.1.4
+- Added the package to the requirements.txt file with the command: pip3 freeze local > requirements.txt
+- Creating the Django Project in Terminal:
+  - Created the new project, "Neurographic", using the Django built-in function: django-admin startproject neurographic .
+- Creating the new app in Terminal:
+  - Created the new app: about, using the Django built-in function: python3 manage.py startapp about
+![Creating the new app](image06.png)
+  - Added the app to the list of installed apps in neurographic/settings.py
+  - Imported HttpResponse from django.http and view function in about/views.py
+  - Imported the about view and added the new path to the urlpatterns in neurographic/urls.py
 
 Heroku deployment
 - Front page -> Create new app
