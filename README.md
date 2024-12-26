@@ -17,6 +17,7 @@ These planes and their concerns are as follows.
 ### Returning Visitor Goals
 
 ### User Stories
+- Kanban board created as a GitHub Issues: https://github.com/users/Silver25/projects/3
 - MoSCow prioritization [for PBIs - Product Backlog Items]:
 - Must Have / Should Have / Could Have / Won’t Have (GitHub Issues)
 - create user story template file [user-story.md]
@@ -103,21 +104,11 @@ Me, Myself and I
 
 ## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+For a frontend (HTML, CSS, JS only) apps in Gitpod, Terminal: **python3 -m http.server**
 
-`python3 -m http.server`
+For a backend Python file, Terminal: **python3 run.py**  [ if name of the file is 'run.py' ]
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+To run the Django server in the Terminal: **python3 manage.py runserver**
 
 To log into the Heroku toolbelt CLI:
 
@@ -141,3 +132,9 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 - in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
   - replace all `<angle-bracket>` keys with your own data
 - enter password _(will not echo **\*\*\*\*** on screen)_
+
+<details>
+<summary>Responsive visual <b style="color: yellow;">(open here)</b></summary>
+<!-- Change code from ![Wireframe for site](assets/documentation/wireframe01.webp) -->
+<img src="assets/documentation/intro-responsive2.webp">
+</details>
