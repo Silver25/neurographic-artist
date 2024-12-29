@@ -106,12 +106,15 @@ Heroku deployment
 ![Gunicorn server preparation](image12.png)
 - Terminal -> Procfile created -> Heroku as ALLOWED_HOSTS
 ![Heroku settings for server](image13.png)
-- Buildpacks -> Add buildpack -> Python + Node.js
-- Deploy tab -> Deployment method -> GitHub -> Connect to GitHub -> Authorize Heroku
+- Heroku connecting to GitHub project
+![Heroku connects GitHub](image14.png)
+- Heroku App -> Deploy tab -> Deployment method -> GitHub -> Connect to GitHub -> Authorize Heroku
   -> Popup window -> Sign in to GitHub -> Search for gitHub project
 - Manual deploy -> Deploy a GitHub branch -> Deploy Branch button
+![Heroku deploys app from GitHub](image15.png)
 - Receive code from GitHub -> Build main ...
 - Your app was successfully deployed. -> View button
+![Deployed App access with the View button](image16.png)
 
 ## Technologies
 
