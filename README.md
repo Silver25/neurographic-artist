@@ -102,8 +102,10 @@ Heroku deployment
 ![Reveal Config vars for App](image10.png)
 - Config Vars new key 'DISABLE_COLLECTSTATIC' set to '1'
 ![Config Vars key](image11.png)
-
-- Config Vars -> Reveal Config Vars -> CREDS + creds.json code
+- Gitpod IDE Terminal -> Gunicorn server preparation setup
+![Gunicorn server preparation](image12.png)
+- Terminal -> Procfile created -> Heroku as ALLOWED_HOSTS
+![Heroku settings for server](image13.png)
 - Buildpacks -> Add buildpack -> Python + Node.js
 - Deploy tab -> Deployment method -> GitHub -> Connect to GitHub -> Authorize Heroku
   -> Popup window -> Sign in to GitHub -> Search for gitHub project
