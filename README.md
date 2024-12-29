@@ -63,7 +63,7 @@ What colors, typography, and design elements will we use?
 ![Issue with running in the browser](issue-image01.png)
 [ Resolved with adding the hostname to ALLOWED_HOSTS, inside project/settings.py file ]
 ![Resolved issue and Django running in the browser](issue-image02.png)
-- Django App first run in the browser issue [ resolved with manualy adding /about on the end ]
+- Django App first run in the browser issue [ resolved with manually adding /about on the end ]
 ![Django App first run issue](image07.png)
 
 ## Deployment
@@ -94,10 +94,15 @@ Setup and startup of the Project in Cloud
   - Imported the about view and added the new path to the urlpatterns in neurographic/urls.py
 
 Heroku deployment
-- Front page -> Create new app
-- App name + Europe -> Create app
-- Dashboard -> Settings tab
-- _Config Vars_ called `PORT`. Set this to `8000`
+- Dashboard -> Button 'New' -> Create new app
+![Create New App](image08.png)
+- New App details -> name + Region -> Button 'Create app'
+![New App details](image09.png)
+- Heroku App -> Settings tab -> Config Vars Reveal
+![Reveal Config vars for App](image10.png)
+- Config Vars new key 'DISABLE_COLLECTSTATIC' set to '1'
+![Config Vars key](image11.png)
+
 - Config Vars -> Reveal Config Vars -> CREDS + creds.json code
 - Buildpacks -> Add buildpack -> Python + Node.js
 - Deploy tab -> Deployment method -> GitHub -> Connect to GitHub -> Authorize Heroku
