@@ -20,6 +20,15 @@ These planes and their concerns are as follows.
 
 ### User Stories
 - Kanban board created as a GitHub Issues: https://github.com/users/Silver25/projects/3
+![user-stories-template-setup](readme_assets/image18.png)
+![user-stories-template-setup](readme_assets/image19.png)
+![user-stories-template-setup](readme_assets/image20.png)
+![user-stories-template-setup](readme_assets/image21.png)
+![user-stories-template-setup](readme_assets/image22.png)
+![user-stories-template-setup](readme_assets/image23.png)
+![user-story-create](readme_assets/image24.png)
+![user-story-create](readme_assets/image25.png)
+![user-story-create](readme_assets/image26.png)
 - MoSCow prioritization [for PBIs - Product Backlog Items]:
 - Must Have / Should Have / Could Have / Won’t Have (GitHub Issues)
 - create user story template file [user-story.md]
