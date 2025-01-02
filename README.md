@@ -76,6 +76,8 @@ What colors, typography, and design elements will we use?
 ![Resolved issue and Django running in the browser](readme_assets/issue-image02.png)
 - Django App first run in the browser issue [ resolved with manually adding /about on the end ]
 ![Django App first run issue](readme_assets/image07.png)
+- The issue with the 'Push' command in IDE Terminal after some changes/commits were done directly on GitHub space
+![Push command refuse because of GitHub commits](readme_assets/issue-image04.png)
 
 ## Deployment
 
@@ -127,8 +129,10 @@ Heroku deployment
 - Your app was successfully deployed. -> View button
 ![Deployed App access with the View button](readme_assets/image16.png)
 ![App successfully started](readme_assets/image17.png)
-- Connection with Database, creating the tables and Admin credentials
+- Connection with Database, creating the tables and Admin credentials in IDE
 ![Connected with db](readme_assets/image27.png)
+- Connection with the Database on Heroku
+![Heroku creds for db](readme_assets/image28.png)
 
 ## Technologies
 
