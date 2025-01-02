@@ -127,6 +127,8 @@ Heroku deployment
 - Your app was successfully deployed. -> View button
 ![Deployed App access with the View button](readme_assets/image16.png)
 ![App successfully started](readme_assets/image17.png)
+- Connection with Database, creating the tables and Admin credentials
+![Connected with db](readme_assets/image27.png)
 
 ## Technologies
 
