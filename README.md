@@ -78,6 +78,8 @@ What colors, typography, and design elements will we use?
 ![Django App first run issue](readme_assets/image07.png)
 - The issue with the 'Push' command in IDE Terminal after some changes/commits were done directly on GitHub space
 ![Push command refuse because of GitHub commits](readme_assets/issue-image04.png)
+- Resolved
+![Resolved git push error](readme_assets/issue-image05.png)
 
 ## Deployment
 
