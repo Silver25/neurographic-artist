@@ -107,6 +107,10 @@ Setup and startup of the Project in Cloud
   - Added the app to the list of installed apps in neurographic/settings.py
   - Imported HttpResponse from django.http and view function in about/views.py
   - Imported the about view and added the new path to the urlpatterns in neurographic/urls.py
+  - Created new class 'Post' as a model of the app Journal and register for the Django and database
+  ![New Post model created](readme_assets/image29.png)
+  - Post model displayed in Django administration area
+  ![Post model in Django](readme_assets/image30.png)
 
 Heroku deployment
 - Dashboard -> Button 'New' -> Create new app
