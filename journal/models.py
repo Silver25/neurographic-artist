@@ -13,7 +13,15 @@ class Post(models.Model):
         related_name="journal_posts"
 )
     content = models.TextField()
-    created_on = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     excerpt = models.TextField(blank=True)
-    updated_on = models.DateTimeField(auto_now=True)
+    updated = models.DateTimeField(auto_now=True)
+
+
+class Comment(models.Model):
+    post = 
+    author =
+    content =
+    approved =
+    created =
