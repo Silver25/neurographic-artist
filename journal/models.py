@@ -19,9 +19,9 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
 
-class Comment(models.Model):
+class Comment(models.Model): # Need to finish KEYs for fields and relations
     post = 
     author =
-    content =
+    content =  # what about names of this fields, which are usual?
     approved =
     created =
