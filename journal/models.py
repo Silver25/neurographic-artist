@@ -20,8 +20,8 @@ class Post(models.Model):
 
 
 class Comment(models.Model): # Need to finish KEYs for fields and relations
-    post = 
-    author =
-    content =  # what about names of this fields, which are usual?
-    approved =
-    created =
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="comments")
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="commenter")
+    content = models.TextField()
+    approved = models.BooleanField(default=False)
+    created = models.DateTimeField(auto_now_add=True)
