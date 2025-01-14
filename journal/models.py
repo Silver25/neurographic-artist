@@ -19,7 +19,7 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
 
-class Comment(models.Model): # Need to finish KEYs for fields and relations
+class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="comments")
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="commenter")
     content = models.TextField()

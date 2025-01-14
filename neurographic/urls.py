@@ -16,12 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-# from about import views as about_views  DEL
-# from journal import views as journal_views  DEL
+
 
 urlpatterns = [
-    # path("about/", about_views.about, name='about'),  DEL
-    # path("journal/", journal_views.journal, name='journal'), DEL
     path("", include("journal.urls"), name="journal-urls"),
     path('admin/', admin.site.urls),
 ]
