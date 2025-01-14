@@ -8,5 +8,5 @@ from .models import Post
 # def journal(request):   DEL
 #     return HttpResponse("This is Journal page")
 class PostList(generic.ListView):
-    queryset = Post.objects.filter(status=1).order_by("-created_on")
+    queryset = Post.objects.filter(status=1).order_by("-created")
     template_name = "post_list.html"
