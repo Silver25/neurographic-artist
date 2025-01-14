@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+# from django.http import HttpResponse  DEL
 
 # Create your views here.
 
-def journal(request):
-    return HttpResponse("This is Journal page")
+# def journal(request):   DEL
+#     return HttpResponse("This is Journal page")
