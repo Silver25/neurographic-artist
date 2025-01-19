@@ -80,8 +80,6 @@ What colors, typography, and design elements will we use?
 ![Push command refuse because of GitHub commits](readme_assets/issue-image04.png)
 - Resolved
 ![Resolved git push error](readme_assets/issue-image05.png)
-- Issue with loading Django Admin page without styles
-![Django admin without CSS](readme_assets/issue-image06.png)
 
 ## Deployment
 
@@ -141,6 +139,8 @@ Heroku deployment
 ![Connected with db](readme_assets/image27.png)
 - Connection with the Database on Heroku
 ![Heroku creds for db](readme_assets/image28.png)
+- Remove Config Vars key 'DISABLE_COLLECTSTATIC' so Heroku can use static files
+![Enable static files on Heroku](readme_assets/image31.png)
 
 ## Technologies
 
