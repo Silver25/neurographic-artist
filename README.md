@@ -146,7 +146,9 @@ Heroku deployment
 
 ## Credits [Acknowledgments]
 
-Me, Myself and I
+Images and photographs created by Me, Myself and I
+Font style created by Google Fonts [https://fonts.google.com/]
+Footer icons provided by Font Awesome [https://fontawesome.com/icons]
 ---
 Online simple Kanban style task process board [https://notepad.js.org/kanban/]
 ---
@@ -164,7 +166,7 @@ Heroku live server: https://neurographical-915fed1a7d6c.herokuapp.com/
 
 
 <details>
-<summary>Responsive visual <b style="color: yellow;">(open here)</b></summary>
-<!-- Change code from ![Wireframe for site](assets/documentation/wireframe01.webp) -->
-<img src="assets/documentation/intro-responsive2.webp">
+<summary>Image explanation <b style="color: yellow;">(open here)</b></summary>
+<!-- Comment related to link and image -->
+<img src="work-readme/image.webp">
 </details>
