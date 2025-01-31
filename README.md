@@ -80,6 +80,8 @@ What colors, typography, and design elements will we use?
 ![Push command refuse because of GitHub commits](readme_assets/issue-image04.png)
 - Resolved
 ![Resolved git push error](readme_assets/issue-image05.png)
+- Error with About app, run server command stop all, on GitPod
+![About app admin.py error](readme_assets/issue-image06.png)
 
 ## Deployment
 
