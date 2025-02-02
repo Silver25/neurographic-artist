@@ -85,10 +85,10 @@ What colors, typography, and design elements will we use?
 
 ## Deployment
 
-Local deployment on workstation
+### Local deployment on workstation
 - from installation of Python on Windows OS to runing project in the browser
 
-Setup and startup of the Project in Cloud
+### Setup and startup of the Project in Cloud
 - Create new GitHub repository from template
 ![New repo creating](readme_assets/image01.png)
 - Apply settings for new repo
@@ -114,7 +114,7 @@ Setup and startup of the Project in Cloud
   - Post model displayed in Django administration area
   ![Post model in Django](readme_assets/image30.png)
 
-Heroku deployment
+### Heroku deployment
 - Dashboard -> Button 'New' -> Create new app
 ![Create New App](readme_assets/image08.png)
 - New App details -> name + Region -> Button 'Create app'
@@ -145,6 +145,12 @@ Heroku deployment
 ![Enable static files on Heroku](readme_assets/image31.png)
 
 ## Technologies
+- HTML language
+- Bootstrap [CSS] framework
+- Python language
+- Django framework
+- Postgres database
+- Git version control
 
 ## Credits [Acknowledgments]
 
@@ -153,6 +159,10 @@ Font style created by Google Fonts [https://fonts.google.com/]
 Footer icons provided by Font Awesome [https://fontawesome.com/icons]
 ---
 Online simple Kanban style task process board [https://notepad.js.org/kanban/]
+Google Translate [https://translate.google.com/]
+Control Vi to edit and download image from clipboard [https://ctrl.vi/]
+Folge - paste image from clipboard to download [https://folge.me/tools/]
+Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]
 ---
 
 ## Gitpod Reminders
@@ -161,7 +171,7 @@ For a frontend (HTML, CSS, JS only) apps in Gitpod, Terminal: **python3 -m http.
 
 For a backend Python file, Terminal: **python3 run.py**  [ if name of the file is 'run.py' ]
 
-To run the Django server in the Terminal: **python3 manage.py runserver**  
+To run the Django server in the Terminal: **python manage.py runserver**  
 Dev server opens: 127.0.0.1:8000  
 Heroku live server: https://neurographical-915fed1a7d6c.herokuapp.com/
 
