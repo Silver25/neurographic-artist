@@ -80,7 +80,7 @@ What colors, typography, and design elements will we use?
 ![Push command refuse because of GitHub commits](readme_assets/issue-image04.png)
 - Resolved
 ![Resolved git push error](readme_assets/issue-image05.png)
-- Error with About app, run server command stop all, on GitPod
+- Error with About app, run server command stop all, on localhost, after migration
 ![About app admin.py error](readme_assets/issue-image06.png)
 
 ## Deployment
@@ -162,7 +162,7 @@ For a frontend (HTML, CSS, JS only) apps in Gitpod, Terminal: **python3 -m http.
 For a backend Python file, Terminal: **python3 run.py**  [ if name of the file is 'run.py' ]
 
 To run the Django server in the Terminal: **python3 manage.py runserver**  
-Dev server opens: https://8000-silver25-neurographicar-ndf0yr6jpjz.ws.codeinstitute-ide.net/  
+Dev server opens: 127.0.0.1:8000  
 Heroku live server: https://neurographical-915fed1a7d6c.herokuapp.com/
 
 
