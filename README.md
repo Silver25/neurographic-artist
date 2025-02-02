@@ -168,6 +168,7 @@ Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]
 - Content made for the Django Community [https://django.wtf/]
 ---
 
+
 ## Gitpod Reminders
 
 For a frontend (HTML, CSS, JS only) apps in Gitpod, Terminal: **python3 -m http.server**
