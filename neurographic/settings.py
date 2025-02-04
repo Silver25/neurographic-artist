@@ -51,7 +51,7 @@ INSTALLED_APPS = [
 
 
 # SITE_ID of 1 - that Django can handle multiple sites from one database
-# redirection URLs added so that after user logged out, the site will 
+# redirection URLs added so that after user logged in/out, the site will 
 # automatically redirect to the home page
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
@@ -67,6 +67,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'neurographic.urls'
@@ -128,6 +129,10 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+# to avoid Internal Server errors (code 500) during login and registration
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 
 # Internationalization
