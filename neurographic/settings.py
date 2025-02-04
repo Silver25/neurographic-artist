@@ -49,6 +49,15 @@ INSTALLED_APPS = [
     'journal',
 ]
 
+
+# SITE_ID of 1 - that Django can handle multiple sites from one database
+# redirection URLs added so that after user logged out, the site will 
+# automatically redirect to the home page
+SITE_ID = 1
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
