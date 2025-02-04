@@ -164,6 +164,10 @@ Control Vi to edit and download image from clipboard [https://ctrl.vi/]
 Folge - paste image from clipboard to download [https://folge.me/tools/]
 Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]
 ---
+- Complete Basic Django Series [https://djangotherightway.com/]
+- Content made for the Django Community [https://django.wtf/]
+---
+
 
 ## Gitpod Reminders
 
