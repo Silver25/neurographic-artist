@@ -187,6 +187,7 @@ For a backend Python file, Terminal: **python3 run.py**  [ if name of the file i
 To run the Django server in the Terminal: **python manage.py runserver**  
 Dev server opens: 127.0.0.1:8000  
 Heroku live server: https://neurographical-915fed1a7d6c.herokuapp.com/
+GitHub status: https://www.githubstatus.com/history
 
 
 
