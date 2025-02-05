@@ -10,7 +10,10 @@ Discover the World of Neurographic Art: Transform Your Mind, Emotions, and Creat
 
 Welcome to your ultimate resource for understanding and exploring Neurographic Art.  
 A transformative and meditative art form that melds psychology, neuroscience, and creativity.  
-On our site, you'll delve into the fascinating world of this unique technique, where simple lines and shapes evolve into intricate, meaningful compositions. Learn about the term “Neurographic Art,” its origins, and its profound impact on personal growth and emotional well-being. Through engaging tutorials and insightful articles, we’ll guide you step-by-step, helping you master the techniques that allow your subconscious to speak through art. Join our vibrant community of artists and enthusiasts discovering the therapeutic power and boundless possibilities of Neurographic Art.  
+On our site, you'll delve into the fascinating world of this unique technique, where simple lines and shapes evolve into intricate, meaningful compositions.  
+Learn about the term “Neurographic Art,” its origins, and its profound impact on personal growth and emotional well-being. Through engaging tutorials and  
+insightful articles, we’ll guide you step-by-step, helping you master the techniques that allow your subconscious to speak through art.  
+Join our vibrant community of artists and enthusiasts discovering the therapeutic power and boundless possibilities of Neurographic Art.  
 
 Live site reachable at https://neurographical-915fed1a7d6c.herokuapp.com/
 
