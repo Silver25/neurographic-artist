@@ -32,8 +32,8 @@ def post_detail(request, slug):
         request,
         "journal/post_detail.html",
         {
-            "post": post
+            "post": post,
             "comments": comments,
             "comment_count": comment_count,
-         },
+         }
     )
