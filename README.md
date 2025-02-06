@@ -10,10 +10,7 @@ Discover the World of Neurographic Art: Transform Your Mind, Emotions, and Creat
 
 Welcome to your ultimate resource for understanding and exploring Neurographic Art.  
 A transformative and meditative art form that melds psychology, neuroscience, and creativity.  
-On our site, you'll delve into the fascinating world of this unique technique, where simple lines and shapes evolve into intricate, meaningful compositions.  
-Learn about the term “Neurographic Art,” its origins, and its profound impact on personal growth and emotional well-being. Through engaging tutorials and  
-insightful articles, we’ll guide you step-by-step, helping you master the techniques that allow your subconscious to speak through art.  
-Join our vibrant community of artists and enthusiasts discovering the therapeutic power and boundless possibilities of Neurographic Art.  
+On this site, you'll delve into the fascinating world of this unique technique, where simple lines and shapes evolve into intricate, meaningful compositions.  
 
 Live site reachable at https://neurographical-915fed1a7d6c.herokuapp.com/
 
@@ -176,23 +173,3 @@ Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]
 - Complete Basic Django Series [https://djangotherightway.com/]
 - Content made for the Django Community [https://django.wtf/]
 ---
-
-
-## Gitpod Reminders
-
-For a frontend (HTML, CSS, JS only) apps in Gitpod, Terminal: **python3 -m http.server**
-
-For a backend Python file, Terminal: **python3 run.py**  [ if name of the file is 'run.py' ]
-
-To run the Django server in the Terminal: **python manage.py runserver**  
-Dev server opens: 127.0.0.1:8000  
-Heroku live server: https://neurographical-915fed1a7d6c.herokuapp.com/
-GitHub status: https://www.githubstatus.com/history
-
-
-
-<details>
-<summary>Image explanation <b style="color: yellow;">(open here)</b></summary>
-<!-- Comment related to link and image -->
-<img src="work-readme/image.webp">
-</details>
