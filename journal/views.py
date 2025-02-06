@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 # Generic View for the function to create PostList
 from django.views import generic
 from .models import Post
+from .forms import CommentForm
 
 # Create your views here.
 # Post (with a capital P) always refers to the 'Post' model in model.py created. 
@@ -29,6 +30,7 @@ def post_detail(request, slug):
     post = get_object_or_404(queryset, slug=slug)  # get data or raise a Http404 error
     comments = post.comments.all().order_by("-created")
     comment_count = post.comments.filter(approved=True).count()
+    comment_form = CommentForm()
 
     # helper function
     return render(
@@ -38,6 +40,7 @@ def post_detail(request, slug):
             "post": post,  # set the name of the object
             "comments": comments,
             "comment_count": comment_count,  # set the number of the comments
+            "comment_form": comment_form,
          }
     )
     # context ("post") is how we pass data from our views to our templates
