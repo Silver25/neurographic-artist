@@ -52,12 +52,18 @@ INSTALLED_APPS = [
 ]
 
 
+# CONSTANTS
 # SITE_ID of 1 - that Django can handle multiple sites from one database
 # redirection URLs added so that after user logged in/out, the site will 
 # automatically redirect to the home page
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+# set bootstrap5 as the allowed default template pack for project
+# to match the Bootstrap5 CSS and JS files already used in base.html
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 
 MIDDLEWARE = [
