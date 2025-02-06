@@ -72,7 +72,17 @@
 
                 </ul>
                 <span class="navbar-text text-muted">
+                     
+                    {% if user.is_authenticated %}
+                    &#9752; <!-- skull: &#9760; -->
+                    <span class="text-end m-3 fw-bold">You're logged in -</span>
                     therapeutic art for non-artists
+                    {% else %}
+                    &#9752; <!-- skull: &#9760; -->
+                    <span class="text-end m-3 fw-bold">You're not logged in -</span>
+                    therapeutic art for non-artists
+                    {% endif %}
+                    
                 </span>
             </div>
         </div>
