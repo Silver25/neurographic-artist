@@ -117,6 +117,8 @@ What colors, typography, and design elements will we use?
 - Test for a login with wrong credentials
 - Test for the access to Admin area as a logged-in User
 ![Logged-in User access to Administration](readme_assets/image43.png)
+- Test for the CRUD action for the Comment by the User
+![Delete button and modal for comment](readme_assets/image44.png)
 
 ### Validator Testing
 
