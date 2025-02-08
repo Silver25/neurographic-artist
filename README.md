@@ -66,7 +66,38 @@ What colors, typography, and design elements will we use?
 
 ## Features
 
+- Top/main Menu
+![Main menu on the top](readme_assets/image36.png)
+- Footer
+![Footer with copyright and links](readme_assets/image38.png)
+- Journal page - post listing
+![List of published posts](readme_assets/image39.png)
+- Navigation through all published posts
+![Navigation through post listings](readme_assets/image40.png)
+- Comment form -  allow registered users to create a new comment
+![Comment form for related post](readme_assets/image35.png)
+- Published comments preview with total number of comments for the related post
+![Display of the comments](readme_assets/image34.png)
+- Comment Edit button - for the registered users with the option to edit a existed comment
+- Comment Update button - for the registered users with the option to update a existed comment
+- About page
+- Successful login, logout, submit, update message for the user on the top
+![Top page msg for login](readme_assets/image33.png)
+![Top page msg for logout](readme_assets/image42.png)
+![Top page msg for submited form](readme_assets/image37.png)
+- Login form
+![Sign In page with form](readme_assets/image32.png)
+- Logout choice
+- Sign out page with second level action to confirm choice
+![Sign/Log out page](readme_assets/image41.png)
+- Signup form
+- Contact form
+- Social Media links
+- Newsletter subscribtion form
+
 ### Future Features
+
+- Unsubscribe from newsletter list link/button
 
 ## Testing
 

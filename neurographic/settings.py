@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-_239m!$r2!9ehi__6$d%gw*4sh$g-m^-53x6b_1l4x9s_c%^b=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 
 # Application definition
@@ -54,7 +54,7 @@ INSTALLED_APPS = [
 
 # CONSTANTS
 # SITE_ID of 1 - that Django can handle multiple sites from one database
-# redirection URLs added so that after user logged in/out, the site will 
+# redirection URLs added so that after user logged in/out, the site will
 # automatically redirect to the home page
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
