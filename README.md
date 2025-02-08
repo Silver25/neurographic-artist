@@ -114,6 +114,9 @@ What colors, typography, and design elements will we use?
 - **TEST for the Registration form for the new User**
 - Test for the login and logout of the user
 - Test for the message display related to action from the User
+- Test for a login with wrong credentials
+- Test for the access to Admin area as a logged-in User
+![Logged-in User access to Administration](readme_assets/image43.png)
 
 ### Validator Testing
 
@@ -131,6 +134,8 @@ What colors, typography, and design elements will we use?
 ![Resolved git push error](readme_assets/issue-image05.png)
 - Error with About app, run server command stop all, on localhost, after migration
 ![About app admin.py error](readme_assets/issue-image06.png)
+- ModuleNotFoundError: No module named 'crispy_forms' on second computer, resolved with installation
+![ModuleNotFindError](readme_assets/issue-image07.png)
 
 ## Deployment
 
