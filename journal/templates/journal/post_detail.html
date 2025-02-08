@@ -103,3 +103,8 @@
 </div>
 
 {% endblock content %}
+
+<!-- named it 'extras' to differentiate it from the 'content' block -->
+{% block extras %}
+<script src="{% static 'js/comments.js' %}"></script>
+{% endblock %}
