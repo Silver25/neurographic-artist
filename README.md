@@ -103,6 +103,18 @@ What colors, typography, and design elements will we use?
 
 ### Manual Testing
 
+- Test of the Main top page menu = PASS
+- Test of the displayed published posts
+- Test of the navigation for posts
+- Test for the opening of the choosen post
+- Test for the Admin area
+- Test for the CRUD action for the Post in the Admin area
+- Test for the CRUD action for the User in the Admin area
+- Test for the CRUD action for the Comment in the Admin area
+- **TEST for the Registration form for the new User**
+- Test for the login and logout of the user
+- Test for the message display related to action from the User
+
 ### Validator Testing
 
 ### Bugs and Issues
