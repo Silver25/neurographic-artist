@@ -117,7 +117,7 @@ What colors, typography, and design elements will we use?
 - Test for a login with wrong credentials
 - Test for the access to Admin area as a logged-in User
 ![Logged-in User access to Administration](readme_assets/image43.png)
-- Test for the CRUD action for the Comment by the User
+- Test for the CRUD action for the Comment content by the User
 ![Delete button and modal for comment](readme_assets/image44.png)
 
 ### Validator Testing
@@ -138,6 +138,12 @@ What colors, typography, and design elements will we use?
 ![About app admin.py error](readme_assets/issue-image06.png)
 - ModuleNotFoundError: No module named 'crispy_forms' on second computer, resolved with installation
 ![ModuleNotFindError](readme_assets/issue-image07.png)
+- ImproperlyConfigured: The SECRET_KEY setting raise error and block the local server from running the site
+![ImproperlyConfigured](readme_assets/issue-image08.png)
+- [ Resolved with creating a new Secret Key from the Terminal and placed it in the env.py file ]
+- Issue with import of the comment content for Edit, inside 'textarea' of the form. Didn't fill the form field.
+- [ Resolved with the change of the field name configured in models.py ]
+![Comment for edit issue](readme_assets/issue-image09.png)
 
 ## Deployment
 

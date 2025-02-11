@@ -25,14 +25,14 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # regenerate the SECRET_KEY for final production deployment
-# HEROKU "SECRET_KEY": This doesn't have to be the same value as the one 
+# HEROKU "SECRET_KEY": This doesn't have to be the same value as the one
 # added in 'env.py'. It is considered good practice to have different ones.
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# Allows for the extended, yellow error messages to be displayed 
+# Allows for the extended, yellow error messages to be displayed
 # in the process of development and testing.
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 

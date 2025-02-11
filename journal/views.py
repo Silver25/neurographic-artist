@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, reverse
 # Generic View for the function to create PostList
 from django.views import generic
 from django.contrib import messages
@@ -7,7 +7,7 @@ from .models import Post, Comment
 from .forms import CommentForm
 
 # Create your views here.
-# Post (with a capital P) always refers to the 'Post' model in model.py created. 
+# Post (with a capital P) always refers to the 'Post' model in model.py created.
 # On the other hand, 'post' (with a lowercase p) refers to an individual blog post
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by("-created")
@@ -43,7 +43,7 @@ def post_detail(request, slug):
             messages.add_message(
                 request, messages.SUCCESS,
                 '&#9752; Your comment is submitted and awaiting for the approval'
-    )
+            )
 
     comment_form = CommentForm()
 
@@ -62,7 +62,7 @@ def post_detail(request, slug):
          }
     )
 
-# view returns editor to the post webpage after 
+# view returns editor to the post webpage after
 # mofification/edit of the comment is finished
 def comment_edit(request, slug, comment_id):
     """
@@ -85,6 +85,7 @@ def comment_edit(request, slug, comment_id):
             messages.add_message(request, messages.ERROR, 'Error updating comment!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
 
 def comment_delete(request, slug, comment_id):
     """
