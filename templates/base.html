@@ -1,4 +1,4 @@
-{% load static %}
+{% load static %}  <!-- Template tag -->
 {% url 'home' as home_url %}
 {% url 'about' as about_url %}
 {% url 'account_login' as login_url %}
@@ -95,7 +95,7 @@
                 {% for message in messages %}
                 <div class="alert {{ message.tags }} alert-dismissible
                 fade show" id="msg" role="alert">
-                {{ message | safe }}
+                {{ message | safe }}  <!-- variable -->
                     <button type="button" class="btn-close"
                     data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
