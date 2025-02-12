@@ -72,6 +72,8 @@ What colors, typography, and design elements will we use?
 ![Footer with copyright and links](readme_assets/image38.png)
 - Journal page - post listing
 ![List of published posts](readme_assets/image39.png)
+- Journal page - post listing with post images
+![Post image above the title](readme_assets/image45.png)
 - Navigation through all published posts
 ![Navigation through post listings](readme_assets/image40.png)
 - Comment form -  allow registered users to create a new comment
@@ -104,21 +106,22 @@ What colors, typography, and design elements will we use?
 ### Manual Testing
 
 - Test of the Main top page menu = PASS
-- Test of the displayed published posts
-- Test of the navigation for posts
-- Test for the opening of the choosen post
-- Test for the Admin area
-- Test for the CRUD action for the Post in the Admin area
-- Test for the CRUD action for the User in the Admin area
-- Test for the CRUD action for the Comment in the Admin area
+- Test of the displayed published posts = PASS
+- Test of the navigation for posts = PASS
+- Test for the opening of the choosen post = PASS
+- Test for the Admin area = PASS
+- Test for the CRUD action for the Post in the Admin area = PASS
+- Test for the CRUD action for the User in the Admin area = PASS
+- Test for the CRUD action for the Comment in the Admin area = PASS
 - **TEST for the Registration form for the new User**
-- Test for the login and logout of the user
-- Test for the message display related to action from the User
-- Test for a login with wrong credentials
-- Test for the access to Admin area as a logged-in User
+- Test for the login and logout of the user = PASS
+- Test for the message display related to action from the User = PASS
+- Test for a login with wrong credentials = PASS
+- Test for the access to Admin area as a logged-in User = PASS
 ![Logged-in User access to Administration](readme_assets/image43.png)
-- Test for the CRUD action for the Comment content by the User
+- Test for the CRUD action for the Comment content by the User = PASS
 ![Delete button and modal for comment](readme_assets/image44.png)
+- Test for display of the default post image over the post in post listing = PASS
 
 ### Validator Testing
 
@@ -212,7 +215,14 @@ What colors, typography, and design elements will we use?
 - Python language
 - Django framework
 - Postgres database
-- Git version control
+- JavaScript
+
+## Tools
+- Visual Studio Code code editor [https://code.visualstudio.com/]
+- Git version control system [https://git-scm.com/]
+- Gitpod online code editor [https://www.gitpod.io/]
+- GitHub developer platform [https://github.com/]
+- Agile technique - GitHub Issues tables [Kanban board]
 
 ## Credits [Acknowledgments]
 
@@ -225,7 +235,10 @@ Google Translate [https://translate.google.com/]
 Control Vi to edit and download image from clipboard [https://ctrl.vi/]
 Folge - paste image from clipboard to download [https://folge.me/tools/]
 Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]
+Quillbot Fix grammar, spelling, and punctuation errors [https://quillbot.com/paraphrasing-tool]
+Humanize AI-generated content into natural, human-like text [https://www.humanizeai.pro/]
 ---
 - Complete Basic Django Series [https://djangotherightway.com/]
 - Content made for the Django Community [https://django.wtf/]
+- Answers and suggestions [https://stackoverflow.com/tags]
 ---
