@@ -99,6 +99,7 @@ What colors, typography, and design elements will we use?
 
 ### Future Features
 
+- Registered User can update post with assigned Role
 - Unsubscribe from newsletter list link/button
 
 ## Testing
