@@ -10,27 +10,52 @@ from .forms import CommentForm
 # Post (with a capital P) always refers to the 'Post' model in model.py created.
 # On the other hand, 'post' (with a lowercase p) refers to an individual blog post
 class PostList(generic.ListView):
+    """
+    Returns all published posts in :model:`blog.Post`
+    and displays them in a page of six posts. 
+    **Context**
+
+    ``queryset``
+        All published instances of :model:`blog.Post`
+    ``paginate_by``
+        Number of posts per page.
+        
+    **Template:**
+
+    :template:`blog/index.html`
+    """
     queryset = Post.objects.filter(status=1).order_by("-created")
     template_name = "journal/index.html"
     paginate_by = 6
 
 def post_detail(request, slug):
     """
-    Display an individual :model:`journal.Post`.
+    Display an individual :model:`blog.Post`.
 
     **Context**
 
     ``post``
-        An instance of :model:`journal.Post`.
+        An instance of :model:`blog.Post`.
+    ``comments``
+        All approved comments related to the post.
+    ``comment_count``
+        A count of approved comments related to the post.
+    ``comment_form``
+        An instance of :form:`blog.CommentForm`
 
     **Template:**
 
-    :template:`journal/post_detail.html`
+    :template:`blog/post_detail.html`
     """
     # pull only Published posts from db - models.py-STATUS=1
     queryset = Post.objects.filter(status=1)
-    post = get_object_or_404(queryset, slug=slug)  # get data or raise a Http404 error
+    # retrieves all the data for a single blog post from the Post model
+    post = get_object_or_404(queryset, slug=slug)
+    # retrieves all of the comments for the selected post in descending order
+    # related_name from the Comment model
     comments = post.comments.all().order_by("-created")
+    # variable to store retrieved count of the number of comments
+    # filter for approved comments on a post only
     comment_count = post.comments.filter(approved=True).count()
 
     if request.method == "POST":
@@ -66,10 +91,21 @@ def post_detail(request, slug):
 # mofification/edit of the comment is finished
 def comment_edit(request, slug, comment_id):
     """
-    view to edit comments
+    Display an individual comment for edit.
+
+    **Context**
+
+    ``post``
+        An instance of :model:`blog.Post`.
+    ``comment``
+        A single comment related to the post.
+    ``comment_form``
+        An instance of :form:`blog.CommentForm`
     """
     if request.method == "POST":
 
+        # instance=comment, will applied any changes to the existing Comment,
+        # instead of creating a new one
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comment = get_object_or_404(Comment, pk=comment_id)
@@ -89,12 +125,21 @@ def comment_edit(request, slug, comment_id):
 
 def comment_delete(request, slug, comment_id):
     """
-    view to delete comment
+    Delete an individual comment.
+
+    **Context**
+
+    ``post``
+        An instance of :model:`blog.Post`.
+    ``comment``
+        A single comment related to the post.
     """
     queryset = Post.objects.filter(status=1)
     post = get_object_or_404(queryset, slug=slug)
     comment = get_object_or_404(Comment, pk=comment_id)
 
+    # robust checks for authorship in views so that unauthorised
+    # or mistaken actions can be avoided
     if comment.author == request.user:
         comment.delete()
         messages.add_message(request, messages.SUCCESS, 'Comment deleted!')

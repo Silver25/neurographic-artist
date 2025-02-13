@@ -128,10 +128,14 @@ What colors, typography, and design elements will we use?
 
 ### Validator Testing
 
-- https://validator.w3.org/
+- HTML: **https://validator.w3.org/**
 - about.html as a link to page
 - post page for authenticated user with View Source -> Copy -> Paste code to Validate by direct input
 - Error for comment-id -> post_detail.html -> data-comment_id -> comments.js -> data-comment_id
+- CSS: **https://jigsaw.w3.org/css-validator**
+- Lighthouse: **https://pagespeed.web.dev/**
+- JavaScript: **https://www.jshint.com/**
+- Python: **https://pep8ci.herokuapp.com/#**
 
 ### Bugs and Issues
 
@@ -252,4 +256,9 @@ Humanize AI-generated content into natural, human-like text [https://www.humaniz
 - Complete Basic Django Series [https://djangotherightway.com/]
 - Content made for the Django Community [https://django.wtf/]
 - Answers and suggestions [https://stackoverflow.com/tags]
+- Creating Readme [https://github.com/kera-cudmore/readme-examples]
+- Code Institute Solutions [https://github.com/Code-Institute-Solutions/blog/tree/main]
+- Git documentation [https://git-scm.com/doc]
+- DevTools documentation [https://learn.microsoft.com/en-gb/microsoft-edge/devtools-guide-chromium/landing/]
+- Google Dev Sources [https://developers.google.com]
 ---
