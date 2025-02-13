@@ -122,6 +122,7 @@ What colors, typography, and design elements will we use?
 - Test for the CRUD action for the Comment content by the User = PASS
 ![Delete button and modal for comment](readme_assets/image44.png)
 - Test for display of the default post image over the post in post listing = PASS
+- Test for upload of the Post custom-featured image from the Admin panel = PASS
 
 ### Validator Testing
 
@@ -229,6 +230,9 @@ What colors, typography, and design elements will we use?
 Images and photographs created by Me, Myself and I
 Font style created by Google Fonts [https://fonts.google.com/]
 Footer icons provided by Font Awesome [https://fontawesome.com/icons]
+FotoJet - creating photo collages [https://www.fotojet.com/]
+Photovisi photo collage maker [https://www.photovisi.com/]
+Pixlr's online collage maker [https://pixlr.com/photo-collage/]
 ---
 Online simple Kanban style task process board [https://notepad.js.org/kanban/]
 Google Translate [https://translate.google.com/]

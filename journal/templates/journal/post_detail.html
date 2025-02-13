@@ -13,7 +13,11 @@
                 <p class="post-subtitle">{{ post.author }} | {{ post.created }}</p>
             </div>
             <div class="d-none d-md-block col-md-6 masthead-image">
-                <img src="{% static 'images/default.jpg' %}" class="scale" alt="placeholder">  <!-- link to the static image as a post header -->
+              {% if "placeholder" in post.featured_image.url %}
+                <img src="{% static 'images/default.jpg' %}" class="scale" alt="placeholder image">  <!-- link to the static image as a post header -->
+                {% else %}
+                <img src="{{ post.featured_image.url }}" class="scale" alt="{{ post.title }}">  <!-- the user-generated image stored on Cloudinary is displayed -->
+              {% endif %}
             </div>
         </div>
     </div>
@@ -26,7 +30,7 @@
                 <!-- The post content goes inside the card-text. -->
                 <!-- Use the | safe filter inside the template tags -->
                 <p class="card-text">
-                    {{ post.content | safe }}  <!-- variable -->
+                    {{ post.content | safe }}  <!-- variable, '| safe' filter tells Django that this content is safe to be interpreted as HTML -->
                 </p>
             </div>
         </div>
