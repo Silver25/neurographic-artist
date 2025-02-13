@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
+# to create Bootstrap style for msgs
+from django.contrib.messages import constants as messages
+# convert the database URL into a format that Django can use
 import dj_database_url
 if os.path.isfile('env.py'):
     import env
@@ -160,6 +163,13 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+# dictionary with the message type as a key
+# and the Bootstrap class as the value for styling
+MESSAGE_TAGS = {
+    messages.SUCCESS: 'alert-success',
+    messages.ERROR: 'alert-danger',
+}
 
 
 # Static files (CSS, JavaScript, Images)

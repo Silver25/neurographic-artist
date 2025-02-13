@@ -128,6 +128,11 @@ What colors, typography, and design elements will we use?
 
 ### Validator Testing
 
+- https://validator.w3.org/
+- about.html as a link to page
+- post page for authenticated user with View Source -> Copy -> Paste code to Validate by direct input
+- Error for comment-id -> post_detail.html -> data-comment_id -> comments.js -> data-comment_id
+
 ### Bugs and Issues
 
 - Running the Project for the first time in the browser and Django doesn't recognise the hostname
