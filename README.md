@@ -113,7 +113,8 @@ What colors, typography, and design elements will we use?
 - Test for the CRUD action for the Post in the Admin area = PASS
 - Test for the CRUD action for the User in the Admin area = PASS
 - Test for the CRUD action for the Comment in the Admin area = PASS
-- **TEST for the Registration form for the new User**
+- TEST for the Registration form for the new User
+![Registering new User](readme_assets/image46.png)
 - Test for the login and logout of the user = PASS
 - Test for the message display related to action from the User = PASS
 - Test for a login with wrong credentials = PASS
