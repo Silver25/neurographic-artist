@@ -11,10 +11,9 @@ from .models import About
 @admin.register(About)
 class AboutAdmin(SummernoteModelAdmin):
     """
+    Adds rich-text editing of content in admin
     Lists fields for display in admin, fileds for search
     and rich-text editor.
     """
 
-    list_display = ('title',)
-    search_fields = ['title']
     summernote_fields = ('content',)
