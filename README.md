@@ -25,21 +25,16 @@ These planes and their concerns are as follows.
 ### Returning Visitor Goals
 
 ### User Stories
-- Kanban board created as a GitHub Issues: https://github.com/users/Silver25/projects/3
-![user-stories-template-setup](readme_assets/image18.png)
-![user-stories-template-setup](readme_assets/image19.png)
-![user-stories-template-setup](readme_assets/image20.png)
-![user-stories-template-setup](readme_assets/image21.png)
-![user-stories-template-setup](readme_assets/image22.png)
-![user-stories-template-setup](readme_assets/image23.png)
-![user-story-create](readme_assets/image24.png)
-![user-story-create](readme_assets/image25.png)
-![user-story-create](readme_assets/image26.png)
-- MoSCow prioritization [for PBIs - Product Backlog Items]:
-- Must Have / Should Have / Could Have / Won’t Have (GitHub Issues)
-- create user story template file [user-story.md]
-- git pull to update preview on Gitpod VS GUI
-- write these lines as reminder
+- Kanban board created as a GitHub Issues: https://github.com/users/Silver25/projects/3  
+![user-stories-template-setup](readme_assets/image18.png)  
+![user-stories-template-setup](readme_assets/image19.png)  
+![user-stories-template-setup](readme_assets/image20.png)  
+![user-stories-template-setup](readme_assets/image21.png)  
+![user-stories-template-setup](readme_assets/image22.png)  
+![user-stories-template-setup](readme_assets/image23.png)  
+![user-story-create](readme_assets/image24.png)  
+![user-story-create](readme_assets/image25.png)  
+![user-story-create](readme_assets/image26.png)  
 
 ### The strategy plane: 
 What are you aiming to achieve in the first place and for whom?
@@ -99,6 +94,7 @@ What colors, typography, and design elements will we use?
 
 ### Future Features
 
+- On mobile devices, the featured image is displayed below the title
 - Registered User can update post with assigned Role
 - Unsubscribe from newsletter list link/button
 
@@ -261,4 +257,7 @@ Humanize AI-generated content into natural, human-like text [https://www.humaniz
 - Git documentation [https://git-scm.com/doc]
 - DevTools documentation [https://learn.microsoft.com/en-gb/microsoft-edge/devtools-guide-chromium/landing/]
 - Google Dev Sources [https://developers.google.com]
+- Art & Object [https://www.artandobject.com/]
+- Irish Journal of Psychological Medicine [https://www.cambridge.org/core/journals/irish-journal-of-psychological-medicine]
+- American Psychological Association [https://psycnet.apa.org/home]
 ---
