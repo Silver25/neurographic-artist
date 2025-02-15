@@ -4,6 +4,10 @@ from .models import Post, Comment
 
 # Important to register any app/model with Summernote
 # [ if SummerNote is installed for Admin panel ]
+# decorator is how to register a class,
+# compared to just registering the standard model
+# decorator is more Pythonic and allows customising the
+# registered models how they will appear on the admin site
 @admin.register(Post)
 class PostAdmin(SummernoteModelAdmin):
     """
