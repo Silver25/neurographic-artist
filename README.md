@@ -61,6 +61,7 @@ An Entity Relationship Diagram (ERD) is a type of diagram that lets you see how 
 ### Typography
 
 - Font family: Lato, sans-serif
+- Font family: Roboto, sans-serif
 
 ## Features
 

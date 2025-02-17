@@ -8,8 +8,8 @@ def about_all(request):
     lowercase name correlate with path in about/urls.py
     Renders the most recent information on the website author
     Displays an individual instance of :model:`about.About`.
-    
-     **Context**
+
+    **Context**
     ``about``
         The most recent instance of :model:`about.About`.
 
