@@ -82,6 +82,7 @@ What colors, typography, and design elements will we use?
 ![Top page msg for login](readme_assets/image33.png)
 ![Top page msg for logout](readme_assets/image42.png)
 ![Top page msg for submited form](readme_assets/image37.png)
+![Top page msg for subscription](readme_assets/image47.png)
 - Login form
 ![Sign In page with form](readme_assets/image32.png)
 - Logout choice
@@ -121,6 +122,10 @@ What colors, typography, and design elements will we use?
 ![Delete button and modal for comment](readme_assets/image44.png)
 - Test for display of the default post image over the post in post listing = PASS
 - Test for upload of the Post custom-featured image from the Admin panel = PASS
+- Test for edit/delete option in Admin/Newsletter area = PASS
+![Admin can delete newsletter](readme_assets/image48.png)
+- Test of the confirmation on the action = PASS
+![Confirmation for Deletion](readme_assets/image49.png)
 
 ### Validator Testing
 
