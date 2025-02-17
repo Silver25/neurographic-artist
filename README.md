@@ -62,47 +62,52 @@ What colors, typography, and design elements will we use?
 ## Features
 
 - Top/main Menu
-![Main menu on the top](readme_assets/image36.png)
+![Main menu on the top](readme_assets/image36.png)  
 - Hero image with Readme more link
-![Hero image and button](readme_assets/image50.png)
-- Newsletter Form
-![Newsletter Form](readme_assets/image51.png)
+![Hero image and button](readme_assets/image50.png)  
+- Newsletter subscribtion Form
+![Newsletter Form](readme_assets/image51.png)  
 - Footer
-![Footer with copyright and links](readme_assets/image38.png)
+![Footer with copyright and links](readme_assets/image38.png)  
 - Journal page - post listing
-![List of published posts](readme_assets/image39.png)
+![List of published posts](readme_assets/image39.png)  
 - Journal page - post listing with post images
-![Post image above the title](readme_assets/image45.png)
+![Post image above the title](readme_assets/image45.png)  
 - Navigation through all published posts
-![Navigation through post listings](readme_assets/image40.png)
+![Navigation through post listings](readme_assets/image40.png)  
 - Comment form -  allow registered users to create a new comment
-![Comment form for related post](readme_assets/image35.png)
+![Comment form for related post](readme_assets/image35.png)  
 - Published comments preview with total number of comments for the related post
-![Display of the comments](readme_assets/image34.png)
+![Display of the comments](readme_assets/image34.png)  
 - Comment Edit button - for the registered users with the option to edit a existed comment
 - Comment Update button - for the registered users with the option to update a existed comment
+![Edit and Delete buttons for User](readme_assets/image54.png)  
 - About page
-- Successful login, logout, submit, update message for the user on the top
-![Top page msg for login](readme_assets/image33.png)
-![Top page msg for logout](readme_assets/image42.png)
-![Top page msg for submited form](readme_assets/image37.png)
-![Top page msg for subscription](readme_assets/image47.png)
+- Successful login, logout, submit, update and subscription messages for the user on the top
+![Top page msg for login](readme_assets/image33.png)  
+![Top page msg for logout](readme_assets/image42.png)  
+![Top page msg for submited form](readme_assets/image37.png) 
+![Top page msg for subscription](readme_assets/image47.png)  
 - Login form
-![Sign In page with form](readme_assets/image32.png)
+![Sign In page with form](readme_assets/image32.png)  
 - Logout choice
 - Sign out page with second level action to confirm choice
-![Sign/Log out page](readme_assets/image41.png)
+![Sign/Log out page](readme_assets/image41.png)  
 - Signup form
-- Contact form
+![Signup form](readme_assets/image56.png)
 - Social Media links
-- Newsletter subscribtion form
 
 ### Future Features
 
 - On mobile devices, the featured image is displayed below the title
-- Registered User can update post with assigned Role
+- Registered User can modified and delete post with assigned Role
 - Unsubscribe from newsletter list link/button
+- Cookie Consent Popup
+- Freebies page
 
+
+## Testing
+- Results of testing available on another file [Testing.md file](Testing.md)
 
 ## Deployment
 
@@ -111,59 +116,59 @@ What colors, typography, and design elements will we use?
 
 ### Setup and startup of the Project in Cloud
 - Create new GitHub repository from template
-![New repo creating](readme_assets/image01.png)
+![New repo creating](readme_assets/image01.png)  
 - Apply settings for new repo
-![New repo apply](readme_assets/image02.png)
+![New repo apply](readme_assets/image02.png)  
 - Start Gitpod Dashboard to create new Workspace
-![Gitpod new Workspace](readme_assets/image03.png)
+![Gitpod new Workspace](readme_assets/image03.png)  
 - Chosen project starting preparation
-![Preparing Workspace](readme_assets/image04.png)
+![Preparing Workspace](readme_assets/image04.png)  
 - Building Workspace with all necessary elements
-![Building image for the Workspace](readme_assets/image05.png)
+![Building image for the Workspace](readme_assets/image05.png)  
 - Installed Django using the following command in the Terminal: pip3 install Django~=5.1.4
 - Added the package to the requirements.txt file with the command: pip3 freeze local > requirements.txt
 - Creating the Django Project in Terminal:
   - Created the new project, "Neurographic", using the Django built-in function: django-admin startproject neurographic .
 - Creating the new app in Terminal:
   - Created the new app: about, using the Django built-in function: python3 manage.py startapp about
-![Creating the new app](readme_assets/image06.png)
+![Creating the new app](readme_assets/image06.png)  
   - Added the app to the list of installed apps in neurographic/settings.py
   - Imported HttpResponse from django.http and view function in about/views.py
   - Imported the about view and added the new path to the urlpatterns in neurographic/urls.py
   - Created new class 'Post' as a model of the app Journal and register for the Django and database
-  ![New Post model created](readme_assets/image29.png)
+  ![New Post model created](readme_assets/image29.png)  
   - Post model displayed in Django administration area
-  ![Post model in Django](readme_assets/image30.png)
+  ![Post model in Django](readme_assets/image30.png)  
 
 ### Heroku deployment
 - Dashboard -> Button 'New' -> Create new app
-![Create New App](readme_assets/image08.png)
+![Create New App](readme_assets/image08.png)  
 - New App details -> name + Region -> Button 'Create app'
-![New App details](readme_assets/image09.png)
+![New App details](readme_assets/image09.png)  
 - Heroku App -> Settings tab -> Config Vars Reveal
-![Reveal Config vars for App](readme_assets/image10.png)
+![Reveal Config vars for App](readme_assets/image10.png)  
 - Config Vars new key 'DISABLE_COLLECTSTATIC' set to '1'
-![Config Vars key](readme_assets/image11.png)
+![Config Vars key](readme_assets/image11.png)  
 - Gitpod IDE Terminal -> Gunicorn server preparation setup
-![Gunicorn server preparation](readme_assets/image12.png)
+![Gunicorn server preparation](readme_assets/image12.png)  
 - Terminal -> Procfile created -> Heroku as ALLOWED_HOSTS
-![Heroku settings for server](readme_assets/image13.png)
+![Heroku settings for server](readme_assets/image13.png)  
 - Heroku connecting to GitHub project
-![Heroku connects GitHub](readme_assets/image14.png)
+![Heroku connects GitHub](readme_assets/image14.png)  
 - Heroku App -> Deploy tab -> Deployment method -> GitHub -> Connect to GitHub -> Authorize Heroku
   -> Popup window -> Sign in to GitHub -> Search for gitHub project
 - Manual deploy -> Deploy a GitHub branch -> Deploy Branch button
-![Heroku deploys app from GitHub](readme_assets/image15.png)
+![Heroku deploys app from GitHub](readme_assets/image15.png)  
 - Receive code from GitHub -> Build main ...
 - Your app was successfully deployed. -> View button
-![Deployed App access with the View button](readme_assets/image16.png)
-![App successfully started](readme_assets/image17.png)
+![Deployed App access with the View button](readme_assets/image16.png)  
+![App successfully started](readme_assets/image17.png)  
 - Connection with Database, creating the tables and Admin credentials in IDE
-![Connected with db](readme_assets/image27.png)
-- Connection with the Database on Heroku
-![Heroku creds for db](readme_assets/image28.png)
+![Connected with db](readme_assets/image27.png)  
+- Connection with the Database on Heroku  
+![Heroku creds for db](readme_assets/image28.png)  
 - Remove Config Vars key 'DISABLE_COLLECTSTATIC' so Heroku can use static files
-![Enable static files on Heroku](readme_assets/image31.png)
+![Enable static files on Heroku](readme_assets/image31.png)  
 
 ## Technologies
 - HTML language
@@ -182,30 +187,30 @@ What colors, typography, and design elements will we use?
 
 ## Credits [Acknowledgments]
 
-Images and photographs created by Me, Myself and I
-Font style created by Google Fonts [https://fonts.google.com/]
-Footer icons provided by Font Awesome [https://fontawesome.com/icons]
-FotoJet - creating photo collages [https://www.fotojet.com/]
-Photovisi photo collage maker [https://www.photovisi.com/]
-Pixlr's online collage maker [https://pixlr.com/photo-collage/]
+Images and photographs created by Me, Myself and I  
+Font style created by Google Fonts [https://fonts.google.com/]  
+Footer icons provided by Font Awesome [https://fontawesome.com/icons]  
+FotoJet - creating photo collages [https://www.fotojet.com/]  
+Photovisi photo collage maker [https://www.photovisi.com/]  
+Pixlr's online collage maker [https://pixlr.com/photo-collage/]  
 ---
-Online simple Kanban style task process board [https://notepad.js.org/kanban/]
-Google Translate [https://translate.google.com/]
-Control Vi to edit and download image from clipboard [https://ctrl.vi/]
-Folge - paste image from clipboard to download [https://folge.me/tools/]
-Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]
-Quillbot Fix grammar, spelling, and punctuation errors [https://quillbot.com/paraphrasing-tool]
-Humanize AI-generated content into natural, human-like text [https://www.humanizeai.pro/]
+Online simple Kanban style task process board [https://notepad.js.org/kanban/]  
+Google Translate [https://translate.google.com/]  
+Control Vi to edit and download image from clipboard [https://ctrl.vi/]  
+Folge - paste image from clipboard to download [https://folge.me/tools/]  
+Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]  
+Quillbot Fix grammar, spelling, and punctuation errors [https://quillbot.com/paraphrasing-tool]  
+Humanize AI-generated content into natural, human-like text [https://www.humanizeai.pro/]  
 ---
-- Complete Basic Django Series [https://djangotherightway.com/]
-- Content made for the Django Community [https://django.wtf/]
-- Answers and suggestions [https://stackoverflow.com/tags]
-- Creating Readme [https://github.com/kera-cudmore/readme-examples]
-- Code Institute Solutions [https://github.com/Code-Institute-Solutions/blog/tree/main]
-- Git documentation [https://git-scm.com/doc]
-- DevTools documentation [https://learn.microsoft.com/en-gb/microsoft-edge/devtools-guide-chromium/landing/]
-- Google Dev Sources [https://developers.google.com]
-- Art & Object [https://www.artandobject.com/]
-- Irish Journal of Psychological Medicine [https://www.cambridge.org/core/journals/irish-journal-of-psychological-medicine]
-- American Psychological Association [https://psycnet.apa.org/home]
+- Complete Basic Django Series [https://djangotherightway.com/]  
+- Content made for the Django Community [https://django.wtf/]  
+- Answers and suggestions [https://stackoverflow.com/tags]  
+- Creating Readme [https://github.com/kera-cudmore/readme-examples]  
+- Code Institute Solutions [https://github.com/Code-Institute-Solutions/blog/tree/main]  
+- Git documentation [https://git-scm.com/doc]  
+- DevTools documentation [https://learn.microsoft.com/en-gb/microsoft-edge/devtools-guide-chromium/landing/]  
+- Google Dev Sources [https://developers.google.com]  
+- Art & Object [https://www.artandobject.com/]  
+- Irish Journal of Psychological Medicine [https://www.cambridge.org/core/journals/irish-journal-of-psychological-medicine]  
+- American Psychological Association [https://psycnet.apa.org/home]  
 ---

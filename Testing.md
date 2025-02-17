@@ -3,6 +3,7 @@
 ### Manual Testing
 
 - Test of the Main top page menu = PASS
+- Test for all links on the site = PASS
 - Test of the displayed published posts = PASS
 - Test of the navigation for posts = PASS
 - Test for the opening of the choosen post = PASS
@@ -11,21 +12,25 @@
 - Test for the CRUD action for the User in the Admin area = PASS
 - Test for the CRUD action for the Comment in the Admin area = PASS
 - TEST for the Registration form for the new User
-![Registering new User](readme_assets/image46.png)
+![Registering new User](readme_assets/image46.png)  
 - Test for the login and logout of the user = PASS
+- Top navigation link change to 'Logout' = PASS
+![Login or logout msg](readme_assets/image53.png)  
 - Test for the message display related to action from the User = PASS
 - Test for a login with wrong credentials = PASS
-![alt text](readme_assets/image52.png)
+![alt text](readme_assets/image52.png)  
 - Test for the access to Admin area as a logged-in User = PASS
-![Logged-in User access to Administration](readme_assets/image43.png)
+![Logged-in User access to Administration](readme_assets/image43.png)  
 - Test for the CRUD action for the Comment content by the User = PASS
-![Delete button and modal for comment](readme_assets/image44.png)
+![Edit button fill form area for editing](readme_assets/image55.png)  
+- Test of the confirmation on the action by User = PASS 
+![Delete button and modal for comment](readme_assets/image44.png)  
 - Test for display of the default post image over the post in post listing = PASS
 - Test for upload of the Post custom-featured image from the Admin panel = PASS
 - Test for edit/delete option in Admin/Newsletter area = PASS
-![Admin can delete newsletter](readme_assets/image48.png)
-- Test of the confirmation on the action = PASS
-![Confirmation for Deletion](readme_assets/image49.png)
+![Admin can delete newsletter](readme_assets/image48.png)  
+- Test of the confirmation on the action by Admin = PASS
+![Confirmation for Deletion](readme_assets/image49.png)  
 
 ### Validator Testing
 
