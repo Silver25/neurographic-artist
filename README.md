@@ -171,23 +171,25 @@ Live site reachable at https://neurographical-915fed1a7d6c.herokuapp.com/
 
 ## Credits [Acknowledgments]
 
-Images and photographs created by Me, Myself and I  
-Font style created by Google Fonts [https://fonts.google.com/]  
-Footer icons provided by Font Awesome [https://fontawesome.com/icons]  
-FotoJet - creating photo collages [https://www.fotojet.com/]  
-Photovisi photo collage maker [https://www.photovisi.com/]  
-Pixlr's online collage maker [https://pixlr.com/photo-collage/]  
+- Images and photographs created by Me, Myself and I  
+- Font style created by Google Fonts [https://fonts.google.com/]  
+- Footer icons provided by Font Awesome [https://fontawesome.com/icons]  
+- FotoJet - creating photo collages [https://www.fotojet.com/]  
+- Photovisi photo collage maker [https://www.photovisi.com/]  
+- Pixlr's online collage maker [https://pixlr.com/photo-collage/]  
 ---
-Online simple Kanban style task process board [https://notepad.js.org/kanban/]  
-Google Translate [https://translate.google.com/]  
-Control Vi to edit and download image from clipboard [https://ctrl.vi/]  
-Folge - paste image from clipboard to download [https://folge.me/tools/]  
-Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]  
-Quillbot Fix grammar, spelling, and punctuation errors [https://quillbot.com/paraphrasing-tool]  
-Humanize AI-generated content into natural, human-like text [https://www.humanizeai.pro/]  
-Wireframe accomplished with online tool [https://wireframe.cc/]  
-Colour palette generator [https://coolors.co/]  
+
+- Online simple Kanban style task process board [https://notepad.js.org/kanban/]  
+- Google Translate [https://translate.google.com/]  
+- Control Vi to edit and download image from clipboard [https://ctrl.vi/]  
+- Folge - paste image from clipboard to download [https://folge.me/tools/]  
+- Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]  
+- Quillbot Fix grammar, spelling, and punctuation errors [https://quillbot.com/paraphrasing-tool]  
+- Humanize AI-generated content into natural, human-like text [https://www.humanizeai.pro/]  
+- Wireframe accomplished with online tool [https://wireframe.cc/]  
+- Colour palette generator [https://coolors.co/]  
 ---
+
 - Complete Basic Django Series [https://djangotherightway.com/]  
 - Content made for the Django Community [https://django.wtf/]  
 - Answers and suggestions [https://stackoverflow.com/tags]  
