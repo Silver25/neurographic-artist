@@ -1,8 +1,8 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 # Neurographic Art
 
-## Purpose
+![Am I responsive](readme_assets/image00.png)  
+- In a lack of Responsive view generator [https://ui.dev/amiresponsive] above image cover some minimum preview  
 
 ## Description [Interactive Responsive Website]
 
@@ -15,14 +15,6 @@ On this site, you'll delve into the fascinating world of this unique technique, 
 Live site reachable at https://neurographical-915fed1a7d6c.herokuapp.com/
 
 ## UX Design
-Proposed by Jesse James Garrett, this process is represented as five levels of activity called planes.  
-These planes and their concerns are as follows.
-
-### Target audience
-
-### First Time Visitor Goals
-
-### Returning Visitor Goals
 
 ### User Stories
 - Kanban board created as a GitHub Issues: https://github.com/users/Silver25/projects/3  
@@ -36,66 +28,58 @@ These planes and their concerns are as follows.
 ![user-story-create](readme_assets/image25.png)  
 ![user-story-create](readme_assets/image26.png)  
 
-### The strategy plane: 
-What are you aiming to achieve in the first place and for whom?
-
-### The scope plane: 
-Which features, based on information from the strategy plane, do you want to include in your design?
-What's on the table for a production release and what's not, at least for now?
-
-### The structure plane: 
-How is the information structured and how is it logically grouped?
-
-### The skeleton plane: 
-How will our information be represented, and how will the user navigate to the information and the features?
-
-### The surface plane: 
-What will the finished product look like?
-What colors, typography, and design elements will we use?
 
 ### Wireframes
 
+![Home page wireframe](readme_assets/image91.png)  
+
 ### Colour Scheme
+
+- Basic colour for the font and background is WHITE
+- other colours as follows:  
+![Colour Scheme](readme_assets/image92.png)
 
 ### Typography
 
+- Font family: Lato, sans-serif
+
 ## Features
 
-- Top/main Menu
+- Top/main Menu  
 ![Main menu on the top](readme_assets/image36.png)  
-- Hero image with Readme more link
+- Hero image with Readme more link  
 ![Hero image and button](readme_assets/image50.png)  
-- Newsletter subscribtion Form
+- Newsletter subscribtion Form  
 ![Newsletter Form](readme_assets/image51.png)  
-- Footer
+- Footer  
 ![Footer with copyright and links](readme_assets/image38.png)  
-- Journal page - post listing
+- Journal page - post listing  
 ![List of published posts](readme_assets/image39.png)  
-- Journal page - post listing with post images
+- Journal page - post listing with post images  
 ![Post image above the title](readme_assets/image45.png)  
-- Navigation through all published posts
+- Navigation through all published posts  
 ![Navigation through post listings](readme_assets/image40.png)  
-- Comment form -  allow registered users to create a new comment
+- Comment form -  allow registered users to create a new comment  
 ![Comment form for related post](readme_assets/image35.png)  
-- Published comments preview with total number of comments for the related post
+- Published comments preview with total number of comments for the related post  
 ![Display of the comments](readme_assets/image34.png)  
-- Comment Edit button - for the registered users with the option to edit a existed comment
-- Comment Update button - for the registered users with the option to update a existed comment
+- Comment Edit button - for the registered users with the option to edit a existed comment  
+- Comment Update button - for the registered users with the option to update a existed comment  
 ![Edit and Delete buttons for User](readme_assets/image54.png)  
-- About page
-- Successful login, logout, submit, update and subscription messages for the user on the top
+- About page  
+- Successful login, logout, submit, update and subscription messages for the user on the top  
 ![Top page msg for login](readme_assets/image33.png)  
 ![Top page msg for logout](readme_assets/image42.png)  
-![Top page msg for submited form](readme_assets/image37.png) 
+![Top page msg for submited form](readme_assets/image37.png)  
 ![Top page msg for subscription](readme_assets/image47.png)  
-- Login form
+- Login form  
 ![Sign In page with form](readme_assets/image32.png)  
-- Logout choice
-- Sign out page with second level action to confirm choice
+- Logout choice  
+- Sign out page with second level action to confirm choice  
 ![Sign/Log out page](readme_assets/image41.png)  
-- Signup form
-![Signup form](readme_assets/image56.png)
-- Social Media links
+- Signup form  
+![Signup form](readme_assets/image56.png)  
+- Social Media links  
 
 ### Future Features
 
@@ -107,7 +91,7 @@ What colors, typography, and design elements will we use?
 
 
 ## Testing
-- Results of testing available on another file [Testing.md file](Testing.md)
+- Results of testing available on another file [Testing.md file](Testing.md)  
 
 ## Deployment
 
@@ -201,6 +185,8 @@ Folge - paste image from clipboard to download [https://folge.me/tools/]
 Lorem Ipsum - generator of dummy text [https://www.lipsum.com/]  
 Quillbot Fix grammar, spelling, and punctuation errors [https://quillbot.com/paraphrasing-tool]  
 Humanize AI-generated content into natural, human-like text [https://www.humanizeai.pro/]  
+Wireframe accomplished with online tool [https://wireframe.cc/]  
+Colour palette generator [https://coolors.co/]  
 ---
 - Complete Basic Django Series [https://djangotherightway.com/]  
 - Content made for the Django Community [https://django.wtf/]  
@@ -214,3 +200,5 @@ Humanize AI-generated content into natural, human-like text [https://www.humaniz
 - Irish Journal of Psychological Medicine [https://www.cambridge.org/core/journals/irish-journal-of-psychological-medicine]  
 - American Psychological Association [https://psycnet.apa.org/home]  
 ---
+I would like to express gratitude to **[Code Institute](https://codeinstitute.net/ie/)** and **walk through** project for offering a valuable step-by-step guide that was instrumental in creating the basis for this website.  
+Last but not least is big THANKS to my mentor **Rory** for guidance and sugestions through project.

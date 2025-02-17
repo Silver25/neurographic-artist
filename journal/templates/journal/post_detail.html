@@ -31,6 +31,7 @@
                 <!-- The post content goes inside the 'card-text' article [because Summernote creates paragraphs]. -->
                 <!-- Use the | safe filter inside the template tags -->
                 <article class="card-text">
+                  <h4>{{ post.title }}</h4>
                     {{ post.content | safe }}  <!-- variable, '| safe' filter tells Django that this content is safe to be interpreted as HTML -->
                 </article>
             </div>
@@ -120,7 +121,7 @@
           data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Are you sure you want to delete your comment?<br />
+        Are you sure you want to delete your comment?<br>
         This action cannot be undone.
       </div>
       <div class="modal-footer">
