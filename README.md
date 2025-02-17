@@ -4,6 +4,17 @@
 ![Am I responsive](readme_assets/image00.png)  
 - In a lack of Responsive view generator [https://ui.dev/amiresponsive] above image cover some minimum preview  
 
+## Purpose
+
+The objective of this project is to create a responsive website utilizing Python/Django, JavaScript, HTML, and CSS (Bootstrap), 
+representing a full stack development approach.  
+
+At present, the project serves solely educational purposes and bears no connection to any existing real-life counterparts. 
+The content of the website is tailored for individuals seeking tranquility and relaxation. 
+Users will have the ability to explore the website through an operational navigation bar that directs them to various sections of the site.  
+
+Furthermore, the website provides an engaging experience of contemporary web dynamics by facilitating visitor interaction with forms and content modification.
+
 ## Description [Interactive Responsive Website]
 
 Discover the World of Neurographic Art: Transform Your Mind, Emotions, and Creativity  
@@ -31,7 +42,15 @@ Live site reachable at https://neurographical-915fed1a7d6c.herokuapp.com/
 
 ### Wireframes
 
+- Wireframe for desktop visual  
 ![Home page wireframe](readme_assets/image91.png)  
+
+### ERD (Entity Relationship Diagram) visualisation
+
+An Entity Relationship Diagram (ERD) is a type of diagram that lets you see how different entities 
+(e.g. people, customers, or other objects) relate to each other in an application or a database.  
+
+![Entity Relationship Diagram](readme_assets\ERD_visual.webp)
 
 ### Colour Scheme
 
@@ -97,6 +116,15 @@ Live site reachable at https://neurographical-915fed1a7d6c.herokuapp.com/
 
 ### Local deployment on workstation
 - from installation of Python on Windows OS to runing project in the browser
+- setup of the environment on computer with installation of VS Code, Python and Git
+- installation of needed extensions for VS Code
+- saving global credentials for Git [for connection from VS Code to GitHub]
+- test of installed components
+- Organize a *folder structure* - main folder for all Projects ...
+- .. and with copy of the repository/clone, subfolder for each project creates VS Code
+- clone of remote/GitHub repository download last version of the code, files and attachments
+- for fully functional project to run locally on a computer it's important to install all dependencies
+- with command in terminal: pip install -r requirements.txt VS Code will install everything from the list
 
 ### Setup and startup of the Project in Cloud
 - Create new GitHub repository from template
@@ -188,6 +216,7 @@ Live site reachable at https://neurographical-915fed1a7d6c.herokuapp.com/
 - Humanize AI-generated content into natural, human-like text [https://www.humanizeai.pro/]  
 - Wireframe accomplished with online tool [https://wireframe.cc/]  
 - Colour palette generator [https://coolors.co/]  
+- DbSchema universal database tool for ERD visualisation on Windows  
 ---
 
 - Complete Basic Django Series [https://djangotherightway.com/]  
