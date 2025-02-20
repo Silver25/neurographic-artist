@@ -1,5 +1,5 @@
 
-# Neurographic Art
+# Neurographic Artist
 
 ![Am I responsive](readme_assets/image00.png)  
 - In a lack of Responsive view generator [https://ui.dev/amiresponsive] above image cover some minimum preview  
@@ -23,12 +23,12 @@ Welcome to your ultimate resource for understanding and exploring Neurographic A
 A transformative and meditative art form that melds psychology, neuroscience, and creativity.  
 On this site, you'll delve into the fascinating world of this unique technique, where simple lines and shapes evolve into intricate, meaningful compositions.  
 
-Live site reachable at https://neurographical-915fed1a7d6c.herokuapp.com/
+Live site reachable at: https://neurographarts.1234567890.herokuapp.com/
 
 ## UX Design
 
 ### User Stories
-- Kanban board created as a GitHub Issues: https://github.com/users/Silver25/projects/3  
+- Kanban board created as a GitHub Issues: https://github.com/users/Silver25/projects/  
 ![user-stories-template-setup](readme_assets/image18.png)  
 ![user-stories-template-setup](readme_assets/image19.png)  
 ![user-stories-template-setup](readme_assets/image20.png)  
