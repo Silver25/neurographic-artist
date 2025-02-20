@@ -50,7 +50,7 @@ Live site reachable at: https://neurographarts.1234567890.herokuapp.com/
 An Entity Relationship Diagram (ERD) is a type of diagram that lets you see how different entities 
 (e.g. people, customers, or other objects) relate to each other in an application or a database.  
 
-![Entity Relationship Diagram](readme_assets\ERD_visual.webp)
+![Entity Relationship Diagram](readme_assets/ERD_visual.webp)
 
 ### Colour Scheme
 
